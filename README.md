@@ -23,14 +23,15 @@ If you haven't already, download GeckoDriver for your operating system and Firef
 Make it executable:
    ```bash
     chmod +x /path/to/geckodriver
-
+```
 Add GeckoDriver to your system's PATH:
-
-export PATH=$PATH:/path/to/
-
+   ```bash
+    export PATH=$PATH:/path/to/
+```
 Run the Script:
-python facebook_cover.py
-
+   ```bash
+    python facebook_cover.py
+```
 
 Enter Facebook URL:
 
@@ -39,7 +40,9 @@ When prompted, enter the URL of the Facebook page you want to scrape.
 Results:
 
 The script will load the page, search for the profile cover photo, and display the image URL if found. The Firefox browser window will automatically close.
+## License
 
+This project is licensed under the [MIT License](LICENSE).
 <p align="center">
   Made with ❤️ by InfoXMax
 </p>
